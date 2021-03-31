@@ -1,0 +1,25 @@
+﻿@model Alumno
+
+@{
+    ViewData["Titulo"] = "Información Alumno";
+    //Layout = "Template_Simple";
+}
+
+<h1>@ViewData["Titulo"]</h1>
+
+<strong>Desde la la vista normal</strong>
+
+<p>
+    Nombre: @Model.Nombre <br />
+    Id: @Model.Id
+</p>
+
+<strong>Desde la la vista parcial</strong>
+<partial name="Template_EscuelaBase" />
+
+<partial><i>@ViewBag.Fecha</i></partial>
+
+<!--
+<p><i>@ViewBag.SendDataForm</i></p>
+<p><i>@ViewData["SendDataForm"]</i></p>
+-->

@@ -1,0 +1,19 @@
+﻿@model Escuela
+
+@{
+    ViewData["Titulo"] = "Información escuela";
+    //Layout = "Template_Simple";
+}
+
+<h1>Escuela: @ViewData["Titulo"]</h1>
+<h2>Nombre: @Model.Nombre</h2>
+<h3>Tipo de Escuela: @Model.TipoEscuela</h3>
+<address>
+    <p>Dirección: @Model.Dirección</p>
+    <p>Pais: @Model.Pais</p>
+    <p>Ciudad: @Model.Ciudad</p>
+</address>
+<p><strong>Año de Fundación: </strong>@Model.AñoDeCreación</p>
+
+<p><i>@ViewBag.SendDataForm</i></p>
+<p><i>@ViewData["SendDataForm"]</i></p>
