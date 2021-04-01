@@ -101,31 +101,36 @@ namespace MvcWebTest.Context
                                 Id = Guid.NewGuid().ToString(),
                                 EscuelaId = escuela.Id,
                                 Nombre = "101",
-                                Jornada = TiposJornada.Mañana
+                                Jornada = TiposJornada.Mañana,
+                                Dirección = "Test Address"
                             },
                         new Curso() {
                                 Id = Guid.NewGuid().ToString(),
                                 EscuelaId = escuela.Id,
                                 Nombre = "201",
-                                Jornada = TiposJornada.Mañana
+                                Jornada = TiposJornada.Mañana,
+                                Dirección = "Test Address"
                             },
                         new Curso{
                                 Id = Guid.NewGuid().ToString(),
                                 EscuelaId = escuela.Id,
                                 Nombre = "301",
-                                Jornada = TiposJornada.Mañana
+                                Jornada = TiposJornada.Mañana,
+                                Dirección = "Test Address"
                             },
                         new Curso(){
                                 Id = Guid.NewGuid().ToString(),
                                 EscuelaId = escuela.Id,
                                 Nombre = "401",
-                                Jornada = TiposJornada.Tarde
+                                Jornada = TiposJornada.Tarde,
+                                Dirección = "Test Address"
                             },
                         new Curso() {
                                 Id = Guid.NewGuid().ToString(),
                                 EscuelaId = escuela.Id,
                                 Nombre = "501",
-                                Jornada = TiposJornada.Tarde
+                                Jornada = TiposJornada.Tarde,
+                                Dirección = "Test Address"
                             }
                     };
         }
