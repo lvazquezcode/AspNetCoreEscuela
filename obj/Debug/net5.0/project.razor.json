@@ -15683,6 +15683,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Curso\\Create.cshtml",
+      "TargetPath": "Views\\Curso\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
