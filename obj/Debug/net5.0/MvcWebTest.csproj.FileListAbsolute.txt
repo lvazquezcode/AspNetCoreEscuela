@@ -80,3 +80,4 @@ D:\Desarrollo\Cursos\DotNetCore\Ejemplos\AspNetCore\MvcWebTest\bin\Debug\net5.0\
 D:\Desarrollo\Cursos\DotNetCore\Ejemplos\AspNetCore\MvcWebTest\obj\Debug\net5.0\Razor\Views\Curso\Index.cshtml.g.cs
 D:\Desarrollo\Cursos\DotNetCore\Ejemplos\AspNetCore\MvcWebTest\obj\Debug\net5.0\Razor\Views\Curso\ListaCursos.cshtml.g.cs
 D:\Desarrollo\Cursos\DotNetCore\Ejemplos\AspNetCore\MvcWebTest\obj\Debug\net5.0\Razor\Views\Curso\Create.cshtml.g.cs
+D:\Desarrollo\Cursos\DotNetCore\Ejemplos\AspNetCore\MvcWebTest\obj\Debug\net5.0\Razor\Views\Curso\Update.cshtml.g.cs

@@ -15603,6 +15603,11 @@
   "RootNamespace": "MvcWebTest",
   "Documents": [
     {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Curso\\Update.cshtml",
+      "TargetPath": "Views\\Curso\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Alumno\\Index.cshtml",
       "TargetPath": "Views\\Alumno\\Index.cshtml",
       "FileKind": "mvc"

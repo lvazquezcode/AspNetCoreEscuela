@@ -53,7 +53,7 @@ namespace MvcWebTest.Controllers
                 _context.Cursos.Add(curso);
                 _context.SaveChanges();
 
-                ViewBag.Message = "Curso Creado!";
+                ViewBag.Message = "Curso Creado";
 
                 return View("Index", curso);
             }
@@ -62,6 +62,64 @@ namespace MvcWebTest.Controllers
                 return View(curso);
             }
             
+        }
+
+        public IActionResult Update(string id)
+        {
+            if (!string.IsNullOrWhiteSpace(id))
+            {
+                var curso = from c in _context.Cursos
+                            where c.Id == id
+                            select c;
+
+                return View(curso.FirstOrDefault());
+
+            }
+            else
+            {
+                return View("ListaCursos", _context.Cursos);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Update(Curso curso)
+        {
+            if (ModelState.IsValid)
+            {
+                ViewBag.Fecha = DateTime.Now;
+
+                _context.Cursos.Update(curso);
+                _context.SaveChanges();
+
+                ViewBag.Message = "Curso Actualizado!";
+
+                return View("Index", curso);
+            }
+            else
+            {
+                return View(curso);
+            }
+            
+        }
+
+         public IActionResult Delete(string id)
+        {
+            if (!string.IsNullOrWhiteSpace(id))
+            {
+                var curso = from c in _context.Cursos
+                            where c.Id == id
+                            select c;
+
+                _context.Remove(curso);
+                _context.SaveChanges();
+
+                return View("ListaCursos", _context.Cursos);
+
+            }
+            else
+            {
+                return View("ListaCursos", _context.Cursos);
+            }
         }
 
         private EscuelaContext _context;
