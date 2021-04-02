@@ -25,14 +25,22 @@ namespace MvcWebTest
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connectionString = ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnectionString");
+
             services.AddControllersWithViews();
-            
-            
+
+            /*
             services.AddDbContext<EscuelaContext>
             (
                 options => options.UseInMemoryDatabase(databaseName: "testDB")
             );
-            
+            */
+
+            services.AddDbContext<EscuelaContext>
+            (
+                options => options.UseSqlServer(connectionString)
+            );
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -15613,6 +15613,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Escuela\\Delete.cshtml",
+      "TargetPath": "Views\\Escuela\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Curso\\Delete.cshtml",
+      "TargetPath": "Views\\Curso\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15623,8 +15633,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Evaluación\\Index.cshtml",
+      "TargetPath": "Views\\Evaluación\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Evaluación\\Edit.cshtml",
+      "TargetPath": "Views\\Evaluación\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15648,13 +15668,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Alumno\\Create.cshtml",
+      "TargetPath": "Views\\Alumno\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Asignatura\\Index.cshtml",
       "TargetPath": "Views\\Asignatura\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Asignatura\\Edit.cshtml",
+      "TargetPath": "Views\\Asignatura\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Alumno\\Edit.cshtml",
+      "TargetPath": "Views\\Alumno\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15668,6 +15703,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Asignatura\\Delete.cshtml",
+      "TargetPath": "Views\\Asignatura\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Curso\\Details.cshtml",
+      "TargetPath": "Views\\Curso\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Curso\\Edit.cshtml",
+      "TargetPath": "Views\\Curso\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -15678,8 +15728,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Asignatura\\Details.cshtml",
+      "TargetPath": "Views\\Asignatura\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Alumno\\ListaAlumnos.cshtml",
       "TargetPath": "Views\\Alumno\\ListaAlumnos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Alumno\\Delete.cshtml",
+      "TargetPath": "Views\\Alumno\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Asignatura\\Create.cshtml",
+      "TargetPath": "Views\\Asignatura\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Evaluación\\Details.cshtml",
+      "TargetPath": "Views\\Evaluación\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Evaluación\\Create.cshtml",
+      "TargetPath": "Views\\Evaluación\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15693,8 +15768,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Escuela\\Edit.cshtml",
+      "TargetPath": "Views\\Escuela\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Escuela\\Create.cshtml",
+      "TargetPath": "Views\\Escuela\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Escuela\\Details.cshtml",
+      "TargetPath": "Views\\Escuela\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Evaluación\\Delete.cshtml",
+      "TargetPath": "Views\\Evaluación\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Desarrollo\\Cursos\\DotNetCore\\Ejemplos\\AspNetCore\\MvcWebTest\\Views\\Alumno\\Details.cshtml",
+      "TargetPath": "Views\\Alumno\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],
